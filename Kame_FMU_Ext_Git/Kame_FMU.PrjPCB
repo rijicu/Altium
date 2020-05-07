@@ -30,6 +30,10 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
+ManagedProjectGUID=951A16FA-C714-4FA3-8D4B-FA6B497D0A46
+VaultGUID=4FE55382-DC55-4F85-8203-CC40799DA18A
+ReleaseVaultName=1_UATUSEast07052020
+ItemGUID=951A16FA-C714-4FA3-8D4B-FA6B497D0A46
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -302,7 +306,7 @@ Value=2
 Name=Sources
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=FE5F8C11-47DB-4A71-BC58-DD102A827267
+ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
@@ -312,7 +316,7 @@ ConfigurationType=Source
 Name=Fabrication
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=92DBEDA0-E2E8-471D-871F-3B73CB1FEF2B
+ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
@@ -324,7 +328,7 @@ ConfigurationType=Fabrication
 Name=Assembly
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=E78CF876-6F5A-4EEF-A4C1-C35A4ED0E966
+ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
@@ -336,7 +340,7 @@ ConfigurationType=Assembly
 Name=Assembly Default
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=B37BE846-18C8-4358-9F8C-26588BAF880B
+ReleaseItemId=
 Variant=Default
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
@@ -859,11 +863,6 @@ OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=GOSTBOM
-OutputName7=GOST BOM
-OutputDocumentPath7=
-OutputVariantName7=[No Variations]
-OutputDefault7=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1498,6 +1497,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1505,7 +1505,6 @@ MatchStrictly2=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
-ReplaceSubparts=0
 
 [PrjClassGen]
 CompClassManualEnabled=0
@@ -1515,17 +1514,6 @@ NetClassAutoCompEnabled=0
 NetClassAutoNamedHarnessEnabled=0
 NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
-
-[Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=0|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-
-[SmartPDF]
-PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [LibraryUpdateOptions]
 SelectedOnly=0
@@ -1551,4 +1539,15 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[Comparison Options]
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=0|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
