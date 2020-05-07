@@ -1,0 +1,22 @@
+[DesignatorManager]
+
+[SheetNumberManager]
+SheetNumberOrder=Display Order
+SheetNumberMethod=Increasing
+DocumentName0=1_reference.SchDoc
+UniqueIDPath0=
+SheetNumber0=1
+DocumentName1=2_cpu.SchDoc
+UniqueIDPath1=
+SheetNumber1=2
+DocumentName2=3_power.SchDoc
+UniqueIDPath2=
+SheetNumber2=3
+DocumentName3=4_io.SchDoc
+UniqueIDPath3=
+SheetNumber3=4
+DocumentName4=5_mb_conn.SchDoc
+UniqueIDPath4=
+SheetNumber4=5
+
+
