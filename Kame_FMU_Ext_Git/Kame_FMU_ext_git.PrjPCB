@@ -30,9 +30,9 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
-ManagedProjectGUID=047E95E4-5C2D-4B6A-BAA3-44BBE65CD1F2
-VaultGUID=3D3617F2-95DD-4584-837B-C5E3E5C7CB82
-ReleaseVaultName=21102020_2
+ManagedProjectGUID=20DBB0AB-FCF8-4CB0-97A8-9D2BA1E35F9C
+VaultGUID=0CB17D4F-F081-4FE3-8C2D-4EF360CFACF8
+ReleaseVaultName=060520_DEV
 ItemGUID=047E95E4-5C2D-4B6A-BAA3-44BBE65CD1F2
 IncludeDesignInRelease=0
 
@@ -287,11 +287,11 @@ Description=Default
 AllowFabrication=0
 ParameterCount=0
 VariationCount=5
-Variation1=Designator=R3|UniqueId=\GAILJHAB|Kind=1|AlternatePart= 
-Variation2=Designator=R25|UniqueId=\HTJTOFQJ|Kind=1|AlternatePart= 
-Variation3=Designator=R30|UniqueId=\DXHMFGXH|Kind=1|AlternatePart= 
-Variation4=Designator=R15|UniqueId=\XUSZWCYQ|Kind=1|AlternatePart= 
-Variation5=Designator=CN4|UniqueId=\SZJEZVSO|Kind=1|AlternatePart= 
+Variation1=Designator=R3|UniqueId=\GAILJHAB|Kind=1|AlternatePart=
+Variation2=Designator=R25|UniqueId=\HTJTOFQJ|Kind=1|AlternatePart=
+Variation3=Designator=R30|UniqueId=\DXHMFGXH|Kind=1|AlternatePart=
+Variation4=Designator=R15|UniqueId=\XUSZWCYQ|Kind=1|AlternatePart=
+Variation5=Designator=CN4|UniqueId=\SZJEZVSO|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
