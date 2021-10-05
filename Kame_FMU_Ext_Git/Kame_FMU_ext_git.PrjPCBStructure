@@ -1,8 +1,1 @@
-Record=TopLevelDocument|FileName=1_reference.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=1_reference.SchDoc|FileName=2_mb_conn.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=1_reference.SchDoc|FileName=3_power.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=1_reference.SchDoc|FileName=4_cpu.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=1_reference.SchDoc|FileName=5_spi_memory.SchDoc|SheetNumber=5
-Record=NoMainPathDocument|SourceDocument=1_reference.SchDoc|FileName=6_uart_esc_i2c.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=1_reference.SchDoc|FileName=7_can_rc_i2c_analog.SchDoc|SheetNumber=7
-Record=NoMainPathDocument|SourceDocument=1_reference.SchDoc|FileName=8_imu&debug_conn.SchDoc|SheetNumber=8
+Record=TopLevelDocument|FileName=1_reference.SchDoc
